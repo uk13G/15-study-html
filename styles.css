@@ -11,5 +11,17 @@ p {
   text-align: center;
   line-height: 30px;
   letter-spacing: 3px;
-  column-count:5
+  column-count:3;
+  column-gap: 50px
+}
+ul{
+  border-width: 4px;
+  border-style: ridge;
+  border-color: red;
+  border-bottom: 4px dotted crimson;
+  border-left: 8px dashed rgb(41, 13, 167);
+}
+li{
+  list-style-type: none;
+  text-shadow: 2px 2px #831c1c;
 }
