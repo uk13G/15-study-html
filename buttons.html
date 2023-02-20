@@ -74,12 +74,33 @@
 .one-button {
   background-color: green;
   color: white;
-
+  cursor: pointer;
+  border-radius: 2px;
+  border-color: green;
+  border-style: solid;
 }
 
-.one-button:hover {
-
+.one-button:active {
+  transition: 0.15s;
+  padding-left: 16px;
+  padding-right: 16px;
 }
+
+.shadow-button {
+  cursor: pointer;
+  background-color: green;
+  color: white;
+  border-color: green;
+  border-style:solid;
+  box-shadow: 6px 6px 6px rgba(15, 2, 2, 0.15);
+  }
+
+.shadow-button:hover {
+  transform: translateY(+2px);
+  transition: 250ms;
+}
+/* suka bleat nahui */
+
 
 </style>
 
@@ -90,5 +111,7 @@
 <button class="join-button">JOIN</button>
 
 <button class="tweet-button">Tweet</button>
+
+<button class="shadow-button">Shadow</button>
 
 </body>
